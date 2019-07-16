@@ -14,3 +14,16 @@ available targets:
 ```
 
 ## Guide to use
+
+An example of Dockerfile
+
+｀｀｀
+FROM risezhang/playframework:1.4.5
+ADD server /var/www/server
+WORKDIR /var/www/server
+EXPOSE 9000
+｀｀｀
+
+## Docker hub
+
+https://cloud.docker.com/u/risezhang/repository/docker/risezhang/playframework
