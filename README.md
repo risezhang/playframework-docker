@@ -17,12 +17,12 @@ available targets:
 
 An example of Dockerfile
 
-｀｀｀
+```
 FROM risezhang/playframework:1.4.5
 ADD server /var/www/server
 WORKDIR /var/www/server
 EXPOSE 9000
-｀｀｀
+```
 
 ## Docker hub
 
